@@ -1,0 +1,51 @@
+.header{
+    background-color: green;
+    color:white;
+    height:90px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.second{
+    display:flex;
+    gap:247px;
+    margin-top: 20px;
+    padding-left:100px;
+    padding-top: 40px;
+
+}
+
+.left{
+    border:2px solid green;
+    height:500px;
+    width:40%;
+    
+}
+
+.right{
+    border:2px solid green;
+    height:700px;
+    width:60%;
+    margin-right:100px;
+}
+
+.forform{
+    display: flex;
+}
+
+form{
+    margin:auto;
+    padding:50px;
+}
+#remov
+{
+    padding: 8px 8px;
+    border: 2px solid rgb(18, 90, 40);
+    font-size: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+}
+#remov:hover{
+    background-color: green;
+    color: white;
+}

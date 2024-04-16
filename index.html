@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <h1>LIBRARY</h1>
+    </div>
+
+    <div class="second">
+
+        <div class="left">
+            <h3 style="text-align: center;">ADD BOOKS</h3><hr>
+            <div class="forform">
+                <form id="form-book">
+
+                    <label for="title">Title:</label><br>
+                    <input type="text" id="title" name="title"><br><br>
+                    <label for="author">Author:</label><br>
+                    <input type="text" id="author" name="author"><br><br>
+                    <label for="quantity">Number of pages:</label><br>
+                    <input type="number" id="quantity" name="quantity" min="1"><br><br>
+                    <!-- <p>Have you  read the book?</p>
+                    <input type="radio" id="yes" name="fav_language" value="yes">
+                    <label for="yes">yes</label>
+                    <input type="radio" id="no" name="fav_language" value="no">
+                    <label for="no">no</label><br><br> -->
+                    <button type="submit" id="add-book" style="color:white;background-color: green; height:30px;width:150px;border:none;border-radius: 10px;">Add New Book</button>
+    
+                </form>
+            </div>
+        </div>    
+        <div class="right">
+            <h3 style="text-align: center;">BOOK LIST</h3><hr>
+            <div id="booklist">
+        </div>
+        </div>
+
+    </div>
+</body>
+</html>
+
+
